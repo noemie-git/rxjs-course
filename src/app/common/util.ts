@@ -1,4 +1,5 @@
 import { observable, Observable } from "rxjs";
+import { Course } from "../model/course";
 
 export function createHttpObservable(url: string) {
   return Observable.create((observer) => {
